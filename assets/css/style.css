@@ -1,0 +1,72 @@
+html {
+    /* font-family */
+    /* font size */
+
+    font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(file:///Users/sin.jy/Documents/FullStackFlexCourse/honglikehk.github.io/assets/images/bananas.png);
+}
+
+.container {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 2%;
+}
+.container2 {
+    width: 960px;
+    margin: 0 auto;
+}
+/* Navigation */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 2%;
+    background-color: white;
+  }
+
+  /* li {
+      float: left;
+  }
+   */
+  li {
+    float: right;
+  }
+
+  li:first-child{
+    float: left;
+    /* background-color: #4aaaa5; */
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: grey;
+  }
+
+.home {
+    background-color: #4aaaa5;
+    color: white;
+  }
+
+ /* a h1 {
+    background-color: #4aaaa5;
+  } */
+
+  img {
+
+    width: 50%;
+    height: 50%;
+      
+  }

@@ -1,3 +1,6 @@
+/* base styles for all the pages on the website, specific style changes for specific pages are below. 
+*/
+
 html {
     /* font-family */
     /* font size */
@@ -7,6 +10,10 @@ html {
 
 body {
     background-image: url(https://raw.githubusercontent.com/honglikehk/honglikehk.github.io/master/assets/images/bananas.png);
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .clearfix {
@@ -20,6 +27,7 @@ body {
     margin-top: 15%;
     padding: 2%;
     margin-bottom: 10%;
+    min-height: calc(100vh - 70px);
 }
 .container2 {
     width: 960px;
@@ -106,3 +114,20 @@ ul {
       font-size: 10px;
       color: white;
   }
+
+  /* specific styles added for CONTACT.HTML */
+
+  .contactmeform p{
+      text-align: left;
+  }
+
+  textarea {
+      margin-bottom: 1%;
+  }
+
+  .button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 1% 2% 1% 2%;
+  }
+
